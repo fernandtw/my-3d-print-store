@@ -24,13 +24,20 @@
 }
 
 .imagen{
-    height: 300px;
+    height: 15rem;
+    width: 12rem;
+}
+
+.card {
+    height: 15rem;
+    width: 12rem;
 }
 
 .imagen img{
     width: 100%;
     height: 100%;
 }
+
 
 .notification {
     position: fixed;
@@ -39,3 +46,31 @@
     z-index: 1000;
 }
 
+
+/*Medias*/
+
+@media only screen and (max-width:450px){
+
+    .imagen{
+        height: 10rem;
+        width: 8rem;
+    }
+    
+    .card {
+        height: 10rem;
+        width: 8rem;
+    }
+    
+    .imagen img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .card-body,h5,p{
+        font-size: 0.9rem;
+    }
+
+    .card-body button{
+        font-size: 1rem;
+    }
+}    
